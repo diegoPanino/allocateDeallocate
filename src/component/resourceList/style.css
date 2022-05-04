@@ -1,0 +1,33 @@
+.App-list{
+  display: flex;
+  justify-content:space-evenly;
+}
+  .App-ul{
+    list-style-type: none;
+    width: 100vh;
+    margin:3vh;
+    text-align: left;
+}
+  .App-ul>li , .App-ul > li > button{
+   font-size: calc(10px + 1vmin);
+}
+  .App-ul > li {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px gold outset;
+    border-radius: 10px;
+    padding:1vh;
+    margin-top: 2vw;
+    margin-left:10%;
+    margin-right: 10%;
+}
+  .App-btn{
+    text-align: center;
+    border-radius: 10px;
+    padding:1vh;
+    font-family: inherit;
+    font-size: calc(16px + 1vmin);
+    background-color: indigo;
+    color:gold;
+}
